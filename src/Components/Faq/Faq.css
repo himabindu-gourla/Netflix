@@ -1,0 +1,139 @@
+.faq{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:60px;
+    padding:5%;
+    background-color: black;
+  
+}
+
+.faq .p2{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.email{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.email input{
+    padding: 25px 300px 22px 10px;
+    outline: none;
+    font-size: 1rem;
+    position: relative;
+    font-weight: 500;
+}
+
+.email input:focus::placeholder {
+    position: absolute;
+    top:0;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+.email button{
+    font-size: 2rem;
+    background-color: #E50915;
+    border: none;
+    padding: 17px 60px 17px 35px;
+    cursor: pointer;
+}
+
+.email img{
+    position: relative;
+    left:-4%;
+    width:2.1%;
+    background-color: #E50915;
+    padding: 12px 0px;
+    cursor: pointer;
+}
+
+.faq-heading h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.faq-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
+
+.faq .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    width:60%;
+    
+}
+
+.faq .item .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0 10px;
+    border-radius: 5px;
+    background-color: #303030;
+    cursor: pointer;
+}
+
+.faq .item .question{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:0 2.5%;
+    
+}
+
+.item .answers{
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0,1,0,1);
+    padding:0 2.5%;
+}
+
+.item .answers.show{
+    height: auto;
+    max-height: 999999px;
+    transition: all 1s cubic-bezier(1,0,1,0);
+}
+
+#plus{
+    font-size: 4rem;
+}
+
+.reverse{
+    font-size: 4rem;
+    transform: rotate(45deg);
+    transition: all 1s cubic-bezier(0,1,0,1)
+}
+
+.question p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    
+}
+
+.answers p{
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding:4% 0;
+}
+
+#margin{
+    width:120%;
+    border:0.5px solid black;
+}

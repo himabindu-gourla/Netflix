@@ -1,0 +1,285 @@
+
+.signin-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+    background-color: rgb(0,0,0,0.5);
+    background-image: url('../../assets/section1/hero section.jpg');
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    gap:20px;
+    
+}
+.sign-logo{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding:1.3% 3%;
+
+}
+.sign-logo img{
+    width:12%;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:30%;
+    height:85vh;
+    background-color: #000000BF;
+    padding:3.5% 4.5%;
+}
+
+.sign-form{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:30px;
+}
+
+.sign-part{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:100px;
+}
+
+.sign-heading h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.sign-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+#Btn{
+    background-color: #E50915;
+    border:none;
+    padding:8px 115px;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:125px;
+}
+
+.remember p{
+    font-size: 13px;
+    color:white;
+    font-weight: 100;
+    opacity:0.9;
+    letter-spacing: 0.5px;
+
+}
+
+.sign-input{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+
+.sign-input input{
+    border-radius: 5px;
+    background-color: #303030;
+    border: none;
+    outline:none;
+    padding:7% 45% 7% 3%;
+    font-size: 1rem;
+    position: relative;
+    font-weight: 500;
+    color:white;
+}
+
+.sign-input input:focus::placeholder {
+    position: absolute;
+    top:0;
+    font-size: 0.7rem;
+    font-weight: 500;
+  }
+
+.captcha{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+    padding:25% 0;
+}
+
+.new{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap:8px;
+}
+
+#help, #now, #learn{
+    cursor: pointer;
+}
+
+#help:hover, #now:hover, #learn:hover{
+    text-decoration: underline;
+}
+#learn{
+    background-color: #000000BF;
+    opacity:1;
+    font-size: 15px;
+    color:	 #0096FF;
+
+}
+
+
+#new{
+    opacity:0.6;
+}
+
+.google-captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.google-captcha{
+    font-size: 13px;
+    opacity:0.7;
+}
+
+.sign-footer{
+    width:100%;
+    background-color: #000000BF;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 60px 0 0;
+    gap:30px;
+    padding:3% 20% 5%;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:110px;
+}
+
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:20px;
+}
+
+.call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap:10px;
+}
+
+#netflix{
+    opacity: 0;
+}
+
+.f1 p, .india p{
+    cursor: pointer;
+    font-size: 13.5px;
+    opacity:0.4;
+}
+
+#number{
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.call p{
+    font-size: 15px;
+    opacity:0.4;
+}
+.f1 p:hover{
+    text-decoration:underline;
+    font-size: 14px;
+}
+
+
+#number:hover{
+    text-decoration:underline;
+    font-size: 15.3px;
+}
+
+.footer-globe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+    
+}
+
+.footer-globe img{
+    width:50%;
+    z-index: 999999;
+    position: relative;
+    left:10%;
+    opacity:0.5;
+}
+
+.footer-language{
+   
+    width:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+#footer-translate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-selectBox {
+    background: #000000BF;
+    color: white;
+    border-radius: 3%;
+    padding: 20% 40% 20% 50%;
+    cursor: pointer;
+    opacity:0.5;
+  }
+  .footer-optionsMenu{
+    background-color: black;
+    opacity:0.5;
+  }
