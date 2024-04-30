@@ -1,3 +1,40 @@
+### Netflix-Clone
+
+# GIT HUB LINK:- https://himabindu-gourla.github.io/Netflix/
+
+#### A React Netflix Clone project replicating the iconic streaming platform's interface. Powered by React, it offers a sleek, responsive design and key functionalities resembling Netflix. Experience seamless browsing, video playback, and user interaction, all in a familiar and engaging environment.
+
+#### Homepage
+
+
+![React App - Google Chrome 4_30_2024 11_43_45 AM](https://github.com/himabindu-gourla/Netflix/assets/160701689/17989aa8-0da7-4f14-93fa-dc24e55f3c5a)
+
+### signIn page
+![React App - Google Chrome 4_30_2024 11_50_03 AM](https://github.com/himabindu-gourla/Netflix/assets/160701689/55db56bc-c9ac-470a-a33e-ac9bdc70d2e7)
+
+### Downloads
+
+![React App - Google Chrome 4_30_2024 11_39_56 AM](https://github.com/himabindu-gourla/Netflix/assets/160701689/9c3c961d-9267-4406-ba50-420132a51cb3)
+
+### Images and Videos using react courasel and slick
+
+https://github.com/himabindu-gourla/Netflix/assets/160701689/0c94ac93-7f7e-4446-b743-490ed7f3dc28
+
+
+
+### FAQ 
+![React App - Google Chrome 4_30_2024 11_44_05 AM](https://github.com/himabindu-gourla/Netflix/assets/160701689/8a732928-64f5-4800-88df-f7dd463a0b1f)
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
